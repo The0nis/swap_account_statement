@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template Swap</title>
+    <style>
+      a {
+        text-decoration: none;
+        color: #734792;
+      }
+      p {
+        margin-bottom: 0.2rem;
+        font-size: 16px;
+      }
+      .main_section tr td p {
+        margin-left: 1rem;
+      }
+      .prefix {
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .otp {
+        display: flex;
+        width: 601px;
+        height: 38px;
+        padding: 5px 0px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background: var(--Overlay, #f1f2f4);
+        letter-spacing: 10px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: #fff">
+    <center style="width: 100%; table-layout: fixed">
+      <table
+        width="100%"
+        style="
+          border-spacing: 0;
+          background-color: #fff;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 640px;
+          border-spacing: 0;
+          font-family: outfit;
+          position: relative;
+        "
+        bgcolor="#fff"
+      >
+        <!-- HEADER -->
+        <table
+          width="100%"
+          style="
+            border-spacing: 0;
+            background-color: #fff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 650px;
+            border-spacing: 0;
+            font-family: outfit;
+            position: relative;
+            margin-bottom: 27px;
+          "
+        >
+          <tr>
+            <td style="display: flex; justify-items: left">
+              <img
+                src="https://res.cloudinary.com/dxib0srtu/image/upload/v1699018657/smartsend_viukjw.png"
+                alt=""
+                width="74.696px"
+                style="margin-top: 1rem"
+                height="70px"
+              />
+            </td>
+          </tr>
+        </table>
+
+        <!-- FIRST SECTION -->
+
+        <table
+          width="100%"
+          style="
+            border-spacing: 0;
+            background-color: #734792;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 640px;
+            height: 60px;
+            border-spacing: 0;
+            font-family: outfit;
+            position: relative;
+          "
+        >
+          <tr>
+            <td>
+              <p
+                style="
+                  width: 100%;
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 900;
+                  color: #fff;
+                  margin: 1rem;
+                "
+              >
+                Email OTP Verification
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- SECOND SECTION -->
+        <table
+          class="main_section"
+          width="100%"
+          style="
+            border-spacing: 0;
+            background-color: #fff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 640px;
+            border-spacing: 0;
+            font-family: outfit;
+            position: relative;
+            margin-top: 2rem;
+          "
+        >
+          <tr>
+            <td>
+              <p>Dear {{Joe Doe}},</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                I hope this message finds you well.
+                <br />
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                Below is your one time password that you need to use complete
+                your authentication.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                The verification code will be valid for 30 minutes. Please do
+                not share your code with anyone.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="otp">4196</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                If you are having any issues with your account, please contact
+                our support team at
+                <a href="mailto:support@smartsend.uk">support@smartsend.uk.</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </table>
+    </center>
+  </body>
+</html>
